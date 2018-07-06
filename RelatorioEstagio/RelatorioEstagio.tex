@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{times}
+\usepackage{sectsty}
+\usepackage[alf]{abntex2cite}
+
+\geometry{a4paper,left=3cm,top=3cm,right=2cm,bottom=2cm}
+
+\setstretch{1.5}
+
+%alterando o estilo das seções e sub-seções
+\sectionfont{\fontsize{12}{15}\selectfont}
+\subsectionfont{\fontsize{12}{15}\normalfont}
+\subsubsectionfont{\fontsize{12}{15}\selectfont}
+
+\begin{document}
+\input Capa
+\input FolhaRosto
+\input FolhaIdentificacao
+\input Dedicatoria
+\input Agradecimento
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+\input Introducao
+\input Fundamentacao
+\input AtividadesExec
+\input RelatoExp
+
+\newpage
+\addcontentsline{toc}{section}{REFERÊNCIAS}
+\renewcommand{\refname}{REFERÊNCIAS}
+
+\bibliography{RelatorioEstagio}
+
+\input FolhaAvaliacao
+\end{document}

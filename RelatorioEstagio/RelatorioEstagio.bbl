@@ -1,0 +1,33 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Bernardo 2011]{Bernardo2011}
+\abntrefinfo{Bernardo}{BERNARDO}{2011}
+{BERNARDO, P.~C. \emph{Desenvolvendo Bons Testes Automatizados}. 2011.
+  Disponível em:
+  $<$https://www.ime.usp.br/~cheque/TestesAutomatizados-PauloCheque-Qualificacao.pdf$>$.
+  Acesso em: 08 de fevereiro de 2018.}
+
+\bibitem[Dias, Barranco e Delapria 2014]{Dias2014}
+\abntrefinfo{Dias, Barranco e Delapria}{DIAS; BARRANCO; DELAPRIA}{2014}
+{DIAS, J.~W.; BARRANCO, D.; DELAPRIA, D. \emph{Testes Automatizados Com JUnite
+  Mockito}. 2014. Disponível em:
+  $<$http://web.unipar.br/~seinpar/2014/artigos/pos/douglas\_delapria\%20e\%20dener\_barranco.pdf$>$.
+  Acesso em: 12 de fevereiro de 2018.}
+
+\bibitem[SeleniumHQ 2017]{SELENIUMHQ}
+\abntrefinfo{SeleniumHQ}{SELENIUMHQ}{2017}
+{SELENIUMHQ. \emph{Selenium – Web Browser Automation}. 2017. Disponível em:
+  $<$https://www.seleniumhq.org/$>$. Acesso em: 12 de fevereiro de 2018.}
+
+\bibitem[Silveira 2003]{Silveira2003}
+\abntrefinfo{Silveira}{SILVEIRA}{2003}
+{SILVEIRA, I.~F. \emph{Linguagem Java}. 2003. Disponível em:
+  $<$http://www.infowester.com/lingjava.php$>$. Acesso em: 08 de fevereiro de
+  2018.}
+
+\end{thebibliography}
