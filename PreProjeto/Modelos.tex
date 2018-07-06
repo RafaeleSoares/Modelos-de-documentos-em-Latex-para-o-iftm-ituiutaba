@@ -1,0 +1,143 @@
+\newpage
+\section{MODELO DO RELATÓRIO DE ESTÁGIO}
+\indent Para criar o modelo do relatório de estágio dentro das normas estabelecidas pelo IFTM, foi necessário elaborar os seguintes elementos: capa,  folha de rosto, folha de identificação, dedicatória, agradecimentos, sumário, os elementos textuais que compõem o relatório de estágio e folha de avaliação do relatório \cite{manualEstagio}.
+
+\subsection{CAPA}
+Segundo as normas para elaboração do relatório de estágio \cite{manualEstagio}, a capa do relatório deve conter as informações necessárias à sua indentificação. Sendo que estas informações devem estar de forma centralizada e em negrito.
+
+Para produzir a capa do relatório de estágio em LaTeX foi necessário inserir o logo do IFTM no canto superior esquerdo utilizando o ambiente figure e colocar as informações de identificação: nome da instituição, nome do curso, nome completo do estagiário, título (Estágio Supervisionado) e subtítulo (se houver), local e data.
+
+\subsection{FOLHA DE ROSTO}
+De acordo com as normas para elaboração do relatório de estágio \cite{manualEstagio}, a folha de rosto do relatório deve conter, os elementos necessários à sua identificação: nome do estagiário, título (Estágio Supervisionado) e subtítulo (se houver), nome da instituição, área de concentração, nome do professor orientador, nome do supervisor do estágio, local e data.
+
+O nome do autor, o título do projeto, o local e a data devem ser colocados de forma centralizada e em negrito. Já a área de concentração, o nome do professor orientador e o nome do supervisor do estágio devem ser colocado a direita com um recuo de 8 cm. Para fazer este recuo foi necessário utilizar o ambiente minipage, que cria uma mini página no documento com a largura especificada como parâmetro (Listagem \ref{lst10}).\\
+
+\newpage
+\lstinputlisting[language=TeX,firstline=7,lastline=19,label=lst10,caption={Exemplo de uso do ambiente minipage.}]{codigos/FolhaRosto.tex}
+
+\subsection{FOLHA DE IDENTIFICAÇÃO}
+Segundo as normas para elaboração do relatório de estágio \cite{manualEstagio}, a folha de identificação deve apresentar o nome do estagiário, o nome do orientador, a instituição concedente, o nome do supervisor, a área de desenvolvimento do estágio, o período de realização e a carga horária total. Todas as informações devem ser alinhadas à esquerda e devem estar em negrito.
+
+\subsection{DEDICATÓRIA}
+De acordo com as normas para elaboração do relatório de estágio \cite{manualEstagio}, a dedicatória é opcional e deve ser inserida após a folha de identificação. Seu conteúdo deve estar justificado à direita com um recuo de 8 cm.
+
+\subsection{AGRADECIMENTO}
+Segundo as normas para elaboração do relatório de estágio \cite{manualEstagio}, o agradecimento é um elemento opcional e deve ser inserido após a dedicatória.
+
+\subsection{SUMÁRIO}
+Segundo as normas para elaboração do relatório de estágio \cite{manualEstagio}, o relatório deve conter, obrigatoriamente, o sumário com a enumeração das divisões do trabalho na ordem em que aparecem no texto.
+
+O sumário é criado de forma automática no LaTeX.
+
+Para produzir o sumário foi utilizado o comando $\backslash$tableofcontents dentro do ambiente document.
+
+\subsection{ELEMENTOS TEXTUAIS DO RELATÓRIO DE ESTÁGIO}
+De acordo com as normas para elaboração do relatório de estágio \cite{manualEstagio}, o relatório de estágio deve conter alguns elementos textuais obrigatórios, sendo eles: introdução, fundamentação teórica e cronograma da realização do estágio e conclusão.
+
+Pode ser necessário a criação de seções e sub-seções de acordo com a necessidade.
+
+\subsection{FOLHA DE AVALIAÇÃO}
+Segundo as normas para elaboração do relatório de estágio \cite{manualEstagio}, a folha de avaliação é o formulário no qual o orientador avalia o relatório de estágio. Deve conter os dados de identificação e os aspectos a serem avaliados pelo orientador.
+
+\newpage
+\section{MODELO DO PROJETO DE PESQUISA (PROJETO DE TCC)}
+\indent Para criar o modelo do projeto de pesquisa dentro das normas estabelecidas pelo IFTM, foi necessário elaborar os seguintes elementos: capa,  folha de rosto, lista de figuras, lista de tabelas, sumário e os elementos textuais que compõem o projeto de pesquisa \cite{manualTCC}.
+
+\subsection{CAPA}
+Segundo o manual para normatização de TCC \cite{manualTCC}, a capa do projeto de pesquisa deve conter as informações essenciais para identificar o projeto. Sendo que estas informações devem estar de forma centralizada e em negrito.
+
+Para produzir a capa do modelo do projeto de pesquisa foi necessário inserir o logo do IFTM utilizando o ambiente figure e colocar os elementos essenciais para identificar o projeto, sendo estes elementos: nome da instituição, curso, nome e sobrenome do autor (sem abreviaturas), título e subtítulo (se houver) do trabalho, local e ano.
+
+\subsection{FOLHA DE ROSTO}
+De acordo com o manual para normatização de TCC \cite{manualTCC}, a folha de rosto do projeto de pesquisa deve conter, os elementos necessários à sua identificação: nome do autor (sem abreviaturas), título e subtítulo (se houver) do projeto, área de concentração, grau pretendido (licenciatura, bacharel, etc), nome do professor orientador (sem abreviaturas), nome (sem abreviaturas) do professor coorientador (se houver), local e ano.
+
+O nome do autor, o título do projeto, o local e o ano devem ser colocados de forma centralizada e em negrito. Já a área de concentração, o grau pretendido, o nome do orientador e do coorientador devem ser colocado a direita com um recuo de 8 cm, criado utilizando o ambiente minipage.
+
+\subsection{LISTA DE FIGURAS, LISTA DE TABELAS E SUMÁRIO}
+Segundo o manual para normatização de TCC \cite{manualTCC}, a lista de figuras e a lista de tabelas são elementos opcionais. Já o sumário é obrigatório e deve conter a enumeração das divisões do trabalho na ordem em que aparecem no texto.
+
+A lista de figuras, a lista de tabelas e o sumário são criados de forma automática no LaTeX.
+
+Para produzir a lista de figuras foi utilizado o comando $\backslash$listoffigures dentro do ambiente document.
+
+Para produzir a lista de tabelas foi utilizado o comando $\backslash$listoftables dentro do ambiente document.
+
+Para produzir o sumário foi utilizado o comando $\backslash$tableofcontents dentro do ambiente document.
+
+\subsection{ELEMENTOS TEXTUAIS DO PROJETO DE PESQUISA}
+Segundo o manual para normatização de TCC \cite{manualTCC}, o projeto de pesquisa deve conter alguns elementos textuais obrigatórios, sendo eles: introdução, referencial teórico, metodologia, recursos e cronograma.
+
+Na introdução deve existir: o tema, o problema, os objetivos (geral e específico), a hipótese, a justificativa e a delimitação. Esses elementos foram criados através de seções e sub-seções de acordo com a necessidade.
+
+\newpage
+\section{MODELO DE ARTIGO}
+\indent Caso o estudante opte por fazer o TCC em artigo, seu artigo deve conter os seguintes elementos: título e subtítulo (se houver), nome do autor, resumo e palavras-chave na língua do texto, título e subtítulo (se houver) em lingua estrangeira, resumo e palavras-chave em língua estrangeira e os elementos textuais que compõem o artigo \cite{manualTCC}.
+
+\subsection{TÍTULO E SUBTÍTULO}
+Segundo o manual para normatização de TCC \cite{manualTCC}, o título e o subtítulo (se houver) do artigo devem estar destacados na página de abertura do artigo e separados por dois-pontos (:), tamanho da fonte 12 pt, centralizado e em negrito e possuir espaçamento entre linhas de 1,5 pt.
+
+\subsection{NOME DO AUTOR}
+Segundo o manual para normatização de TCC \cite{manualTCC}, o nome do autor deve estar acompanhado de um breve currículo que o qualifique na área de conhecimento do artigo e de seu endereço postal e eletrônico. Estes elementos devem aparecer no rodapé ou logo após o nome.
+
+O nome do autor deve ter fonte de tamanho 12, ser centralizado e em negrito e possuir espaçamento entre linhas de 1,5 pt.
+
+\subsection{RESUMO E PALAVRAS-CHAVE}
+Segundo o manual para normatização de TCC \cite{manualTCC}, o resumo e as palavras chaves são elementos obrigatórios do artigo. O resumo não deve ultrapassar 250 palavras, deve ser seguido, logo abaixo, pelas palavras-chave, deve ser digitado em um único parágrafo em espaçamento simples e fonte de tamanho 12. As palavras-chave dever ser separadas entre si por ponto e finalizadas por ponto. 
+
+\subsection{TÍTULO E SUBTÍTULO EM LÍNGUA ESTRANGEIRA}
+Segundo o manual para normatização de TCC \cite{manualTCC}, o título e o subtítulo em língua estrangeira seguem a mesma formatação do título e do subtítulo na língua do documento. Devem preceder o resumo em lingua estrangeira.
+
+\subsection{RESUMO E PALAVRAS-CHAVE EM LÍNGUA ESTRANGEIRA}
+Segundo o manual para normatização de TCC \cite{manualTCC}, o resumo e as palavras-chave em língua estrangeira seguem a mesma formatação do resumo e das palavras-chave na língua do documento.
+
+\subsection{ELEMENTOS TEXTUAIS DO ARTIGO}
+Segundo o manual para normatização de TCC \cite{manualTCC}, o artigo deve conter obrigatoriamente a introdução, o desenvolvimento e a conclusão. Esses elementos foram incluídos em seções e sub-seções de acordo com a necessidade do autor.
+
+\newpage
+\section{MODELO DA MONOGRAFIA}
+\indent Segundo o manual para normatização de TCC \cite{manualTCC}, a monografia deve conter os seguintes elementos: capa,  folha de rosto, ficha catalográfica (é elaborada pela biblioteca da instituição), folha de aprovação, dedicatória, agradecimento, resumo e palavras-chave na língua do texto, resumo e palavras-chave em lingua estrangeira, lista de figuras, lista de tabelas, sumário e os elementos textuais que compõem a monografia.
+
+\subsection{CAPA}
+Segundo o manual para normatização de TCC \cite{manualTCC}, a capa da monografia é semelhante a capa do projeto de pesquisa, portanto para produzir a capa da monografia também foi necessário inserir o logo do IFTM utilizando o ambiente figure e colocar os elementos essenciais para identificar a monografia.
+
+\subsection{FOLHA DE ROSTO}
+Segundo o manual para normatização de TCC \cite{manualTCC}, a folha de rosto da monografia deve conter, os elementos necessários à sua identificação: nome do autor (sem abreviaturas), título e subtítulo (se houver) do trabalho, natureza acadêmica (grau do trabalho), departamento e instituição, área de concentração, grau pretendido (licenciatura, bacharel, etc), nome do professor orientador (sem abreviaturas), nome (sem abreviaturas) do professor coorientador (se houver), local e ano.
+
+O nome do autor, o título do projeto, o local e o ano devem ser colocados de forma centralizada e em negrito. Já a natureza acadêmica, o departamento, a instituição, a área de concentração, o grau pretendido, o nome do orientador e do coorientador devem ser colocado a direita com um recuo de 8 cm, criado utilizando o ambiente minipage.
+
+\subsection{FOLHA DE APROVAÇÃO}
+Segundo o manual para normatização de TCC \cite{manualTCC}, a folha de aprovação da monografiadeve ser inserida nos exemplares designados para a defesa e para o acervo de memória da Instituição, contendo os dados de identificação do TCC, a data de aprovação e o nome e sobrenome junto a assinatura do professor orientador e dos menbros da banca avaliadora. 
+
+O nome do autor, o título do projeto, o local e o ano devem ser colocados de forma centralizada e em negrito. Já a natureza acadêmica, o departamento, a instituição, a área de concentração, o grau pretendido, o nome do orientador e do coorientador devem ser colocado a direita com um recuo de 8 cm. A data de aprovação, o nome, o sobrenome e a assinatura do professor orientador e dos membros da banca devem estar centralizados.
+
+\subsection{DEDICATÓRIA}
+Segundo o manual para normatização de TCC \cite{manualTCC}, a dedicatória é opcional e deve ser inserida após a folha de aprovação. Seu conteúdo deve estar justificado à direita com um recuo de 8 cm.
+
+\subsection{AGRADECIMENTO}
+Segundo o manual para normatização de TCC \cite{manualTCC}, o agradecimento é um elemento opcional e deve ser inserido após a dedicatória.
+
+\subsection{RESUMO E PALAVRAS-CHAVE}
+Segundo o manual para normatização de TCC \cite{manualTCC}, o resumo e as palavras-chave são elementos obrigatórios. O título do resumo deve ser maiúsculo, negrito, centralizado e tamanho 12. O texto do resumo deve ter espaçamento simples e não deve ultrapassar 500 palavras. As palavras-chave devem seguir logo abaixo do resumo. O termo "palavras-chave" deve estar em negrito.
+
+Cada monografia deve conter dois resumos, um na língua portuguesa e outro em idioma estrangeiro (Inglês, Francês ou Espanhol). 
+
+\subsection{LISTA DE FIGURAS, LISTA DE TABELAS E SUMÁRIO}
+Segundo o manual para normatização de TCC \cite{manualTCC}, a lista de figuras e a lista de tabelas são elementos opcionais. Já o sumário é obrigatório e deve conter a enumeração das divisões do trabalho na ordem em que aparecem no texto.
+
+A lista de figuras, a lista de tabelas e o sumário são criados de automaticamente no LaTeX.
+
+Para criar a lista de figuras foi utilizado o comando $\backslash$listoffigures dentro do ambiente document.
+
+Para criar a lista de tabelas foi utilizado o comando $\backslash$listoftables dentro do ambiente document.
+
+Para criar o sumário foi utilizado o comando $\backslash$tableofcontents dentro do ambiente document.
+
+\subsection{ELEMENTOS TEXTUAIS DA MONOGRAFIA}
+Segundo o manual para normatização de TCC \cite{manualTCC}, a monografia deve conter obrigatoriamente introdução, desenvolvimento e conclusão.
+
+\subsection{GIT E GITHUB}
+\indent O Git é um sistema gratuíto de controle de versão de arquivos desenvolvido por Linus Torvalds \cite{GIT2018}. Geralmente é utilizado para gerenciar códigos fonte durante o desenvolvimento de softwares, porém pode ser usado para observar mudanças em qualquer conjunto de arquivos.
+
+O GitHub é uma plataforma de hospedagem de código para controle de versão e colaboração utilizando o Git \cite{GITHUB2018}, permitindo que pessoas em diferentes lugares trabalhem juntas no mesmo projeto. O Github funciona a partir de repositórios, que funcionam como pastas criadas para armazenar arquivos.
+
+Após a elaboração dos modelos, eles serão enviados para um repositório no GitHub, onde estarão disponíveis para download. 

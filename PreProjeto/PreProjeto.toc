@@ -1,0 +1,50 @@
+\babel@toc {brazil}{}
+\contentsline {section}{\numberline {1}INTRODU\IeC {\c C}\IeC {\~A}O}{1}
+\contentsline {subsection}{\numberline {1.1}OBJETIVO GERAL}{1}
+\contentsline {subsection}{\numberline {1.2}OBJETIVOS ESPEC\IeC {\'I}FICOS}{2}
+\contentsline {section}{\numberline {2}LATEX}{3}
+\contentsline {subsection}{\numberline {2.1}INSTALA\IeC {\c C}\IeC {\~A}O}{3}
+\contentsline {subsubsection}{\numberline {2.1.1}Instala\IeC {\c c}\IeC {\~a}o do MikTeX}{4}
+\contentsline {subsubsection}{\numberline {2.1.2}Instala\IeC {\c c}\IeC {\~a}o do TeXMaker}{8}
+\contentsline {subsection}{\numberline {2.2}ESTRUTURA DE UM DOCUMENTO LATEX}{10}
+\contentsline {subsection}{\numberline {2.3}PACOTES}{12}
+\contentsline {subsection}{\numberline {2.4}SE\IeC {\c C}\IeC {\~O}ES}{12}
+\contentsline {subsection}{\numberline {2.5}INSERINDO FIGURAS}{13}
+\contentsline {subsection}{\numberline {2.6}INSERINDO C\IeC {\'O}DIGOS FONTE DE LINGUAGEM DE PROGRAMA\IeC {\c C}\IeC {\~A}O}{15}
+\contentsline {subsection}{\numberline {2.7}CRIANDO TABELAS}{16}
+\contentsline {subsection}{\numberline {2.8}AMBIENTE MATEM\IeC {\'A}TICO}{17}
+\contentsline {subsection}{\numberline {2.9}INSERINDO REFER\IeC {\^E}NCIAS BIBLIOGR\IeC {\'A}FICAS}{18}
+\contentsline {subsection}{\numberline {2.10}CONSIDERA\IeC {\c C}\IeC {\~O}ES SOBRE O CAP\IeC {\'I}TULO}{20}
+\contentsline {section}{\numberline {3}MODELO DO RELAT\IeC {\'O}RIO DE EST\IeC {\'A}GIO}{21}
+\contentsline {subsection}{\numberline {3.1}CAPA}{21}
+\contentsline {subsection}{\numberline {3.2}FOLHA DE ROSTO}{21}
+\contentsline {subsection}{\numberline {3.3}FOLHA DE IDENTIFICA\IeC {\c C}\IeC {\~A}O}{22}
+\contentsline {subsection}{\numberline {3.4}DEDICAT\IeC {\'O}RIA}{22}
+\contentsline {subsection}{\numberline {3.5}AGRADECIMENTO}{22}
+\contentsline {subsection}{\numberline {3.6}SUM\IeC {\'A}RIO}{23}
+\contentsline {subsection}{\numberline {3.7}ELEMENTOS TEXTUAIS DO RELAT\IeC {\'O}RIO DE EST\IeC {\'A}GIO}{23}
+\contentsline {subsection}{\numberline {3.8}FOLHA DE AVALIA\IeC {\c C}\IeC {\~A}O}{23}
+\contentsline {section}{\numberline {4}MODELO DO PROJETO DE PESQUISA (PROJETO DE TCC)}{24}
+\contentsline {subsection}{\numberline {4.1}CAPA}{24}
+\contentsline {subsection}{\numberline {4.2}FOLHA DE ROSTO}{24}
+\contentsline {subsection}{\numberline {4.3}LISTA DE FIGURAS, LISTA DE TABELAS E SUM\IeC {\'A}RIO}{24}
+\contentsline {subsection}{\numberline {4.4}ELEMENTOS TEXTUAIS DO PROJETO DE PESQUISA}{25}
+\contentsline {section}{\numberline {5}MODELO DE ARTIGO}{26}
+\contentsline {subsection}{\numberline {5.1}T\IeC {\'I}TULO E SUBT\IeC {\'I}TULO}{26}
+\contentsline {subsection}{\numberline {5.2}NOME DO AUTOR}{26}
+\contentsline {subsection}{\numberline {5.3}RESUMO E PALAVRAS-CHAVE}{26}
+\contentsline {subsection}{\numberline {5.4}T\IeC {\'I}TULO E SUBT\IeC {\'I}TULO EM L\IeC {\'I}NGUA ESTRANGEIRA}{26}
+\contentsline {subsection}{\numberline {5.5}RESUMO E PALAVRAS-CHAVE EM L\IeC {\'I}NGUA ESTRANGEIRA}{27}
+\contentsline {subsection}{\numberline {5.6}ELEMENTOS TEXTUAIS DO ARTIGO}{27}
+\contentsline {section}{\numberline {6}MODELO DA MONOGRAFIA}{28}
+\contentsline {subsection}{\numberline {6.1}CAPA}{28}
+\contentsline {subsection}{\numberline {6.2}FOLHA DE ROSTO}{28}
+\contentsline {subsection}{\numberline {6.3}FOLHA DE APROVA\IeC {\c C}\IeC {\~A}O}{28}
+\contentsline {subsection}{\numberline {6.4}DEDICAT\IeC {\'O}RIA}{29}
+\contentsline {subsection}{\numberline {6.5}AGRADECIMENTO}{29}
+\contentsline {subsection}{\numberline {6.6}RESUMO E PALAVRAS-CHAVE}{29}
+\contentsline {subsection}{\numberline {6.7}LISTA DE FIGURAS, LISTA DE TABELAS E SUM\IeC {\'A}RIO}{29}
+\contentsline {subsection}{\numberline {6.8}ELEMENTOS TEXTUAIS DA MONOGRAFIA}{30}
+\contentsline {subsection}{\numberline {6.9}GIT E GITHUB}{30}
+\contentsline {section}{\numberline {7}CRONOGRAMA}{31}
+\contentsline {section}{REFER\IeC {\^E}NCIAS}{32}

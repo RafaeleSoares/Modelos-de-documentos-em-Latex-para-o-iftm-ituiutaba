@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx} %pacote para inserir figuras
+\usepackage{geometry} %pacote que pertmite dimensionar a página
+\usepackage{setspace} %pacote que pertmite alterar epaçamento entre linhas
+\usepackage{indentfirst} %indentação de parágrafos
+\usepackage{times} %fonte Times New Roman
+\usepackage{sectsty} %pacote que pertmite alterar o estilo de seções e sub-seções
+\usepackage{listings} %pacote para inserir código fonte
+\usepackage[alf]{abntex2cite} %pacote de estilos bibliográficos da abnt
+
+%alterando as margens para os padrões da abnt
+%esquerda 3cm, superior 3cm, direita 2cm, inferior 2cm
+\geometry{a4paper,left=3cm,top=3cm,right=2cm,bottom=2cm}
+
+%definindo o espaçamento 1.5 como padrão do documento
+\setstretch{1.5}
+
+%alterando o estilo da fonte das seções e sub-seções
+\sectionfont{\fontsize{12}{15}\selectfont}
+\subsectionfont{\fontsize{12}{15}\normalfont}
+\subsubsectionfont{\fontsize{12}{15}\selectfont}
+
+%alterando a legenda das listagens
+\addto\captionsbrazil{
+\renewcommand{\lstlistingname}{Listagem}
+}
+
+%configurações para inserir códigos fonte
+\lstset{
+  numbers=left, %números das linhas a esquerda
+  numberstyle=\tiny, %alerando o tamanho dos números das linhas
+  basicstyle=\footnotesize, %alterando o tamanho da fonte
+  stringstyle=\ttfamily, %alterando o estilo das strings que existem no código fonte
+  showstringspaces=false, % não sublinhar espaços em branco
+  captionpos=b, %posição da legenda
+  frame=tb %adicionar bordas
+}
+\renewcommand{\lstlistlistingname}{Lista de Listagens}
+
+\begin{document}
+\input CapaProjeto
+\input FolhaRostoProjeto
+
+\newpage
+\listoffigures
+\thispagestyle{empty}
+
+\newpage
+\listoftables
+\thispagestyle{empty}
+
+\newpage
+\lstlistoflistings
+\thispagestyle{empty}
+
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+
+\input Introducao
+\input Latex
+\input Modelos
+\input Cronograma
+
+\newpage
+\addcontentsline{toc}{section}{REFERÊNCIAS}
+\renewcommand{\refname}{REFERÊNCIAS}
+
+\bibliography{PreProjeto}
+
+\end{document}
