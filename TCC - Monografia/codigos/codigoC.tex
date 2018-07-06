@@ -1,0 +1,16 @@
+\documentclass[a4paper]{article}
+
+\usepackage{listings} %pacote para inserir codigo fonte
+
+%configuracoes
+\lstset{
+  numbers=left,%numero da linha a direita
+  numberstyle=\tiny,%tamanho do nnmero da linha
+  basicstyle=\footnotesize,%tamanho da fonte
+  showstringspaces=false,%nao mostrar espaco entre as palavras
+  frame=tb %adicionar bordas em cima e em baixo do codigo
+}
+
+\begin{document}
+\lstinputlisting[language=C]{helloworldC.c}.
+\end{document}

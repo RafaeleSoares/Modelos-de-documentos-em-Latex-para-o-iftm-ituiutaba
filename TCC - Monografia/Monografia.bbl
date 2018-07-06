@@ -1,0 +1,87 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Brachet 2018]{texmaker2018}
+\abntrefinfo{Brachet}{BRACHET}{2018}
+{BRACHET, P. \emph{TEXMAKER Free cross-platform LaTeX editor}. 2018.
+  Disponível em: $<$http://www.xm1math.net/texmaker/$>$. Acesso em: 08 de maio
+  de 2018.}
+
+\bibitem[CodeCogs 2018]{CodeCogs2018}
+\abntrefinfo{CodeCogs}{CODECOGS}{2018}
+{CODECOGS. \emph{Editor online de equações LaTeX}. 2018. Disponível em:
+  $<$https://www.codecogs.com/latex/eqneditor.php?lang=pt-br$>$. Acesso em: 12
+  de maio de 2018.}
+
+\bibitem[GIT-SCM 2018]{GIT2018}
+\abntrefinfo{GIT-SCM}{GIT-SCM}{2018}
+{GIT-SCM. \emph{GIT}. 2018. Disponível em: $<$https://git-scm.com/$>$. Acesso
+  em: 27 de junho de 2018.}
+
+\bibitem[GitHub 2016]{GITHUB2018}
+\abntrefinfo{GitHub}{GITHUB}{2016}
+{GITHUB. \emph{Hello World}. 2016. Disponível em:
+  $<$https://guides.github.com/activities/hello-world/$>$. Acesso em: 27 de
+  junho de 2018.}
+
+\bibitem[IFTM 2011]{manualEstagio}
+\abntrefinfo{IFTM}{IFTM}{2011}
+{IFTM. Resolução nº 23/2011, de 29 de março de 2011 - {Normas} para
+  elaboração de relatório de estágio.
+Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro,
+  2011.}
+
+\bibitem[IFTM 2012]{manualTCC}
+\abntrefinfo{IFTM}{IFTM}{2012}
+{IFTM. Resolução nº 06/2012, de 09 de março de 2012 - {Manual} para
+  normatização de trabalhos de conclusão de curso ({TCC}) do {IFTM}.
+Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro,
+  2012.}
+
+\bibitem[LaTeX 2018]{LATEX2018}
+\abntrefinfo{LaTeX}{LATEX}{2018}
+{LATEX. \emph{An introduction to LaTeX}. 2018. Disponível em:
+  $<$https://www.latex-project.org/about/$>$. Acesso em: 08 de maio de 2018.}
+
+\bibitem[Ltd 2018]{TeXdoc2018}
+\abntrefinfo{Ltd}{LTD}{2018}
+{LTD, Z. \emph{TeXdoc Online - TeX and LaTeX documentation lookup system}.
+  2018. Disponível em: $<$http://www.texdoc.net/$>$. Acesso em: 13 de maio de
+  2018.}
+
+\bibitem[Oetiker et al. 2001]{oetiker2001}
+\abntrefinfo{Oetiker et al.}{OETIKER et al.}{2001}
+{OETIKER, T. et al. \emph{The not so short introduction to LATEX
+  2$\varepsilon$}.
+[S.l.], 2001.}
+
+\bibitem[Oliveira e Piccinini 2012]{Piccinini2012}
+\abntrefinfo{Oliveira e Piccinini}{OLIVEIRA; PICCININI}{2012}
+{OLIVEIRA, S.~R.; PICCININI, V.~C. Uma análise sobre a inserção profissional
+  de estudantes de administração no brasil.
+\emph{RAM. Revista de Administração Mackenzie}, Universidade Presbiteriana
+  Mackenzie, v.~13, n.~2, 2012.}
+
+\bibitem[Pereira e Silva 2009]{Pereira2009}
+\abntrefinfo{Pereira e Silva}{PEREIRA; SILVA}{2009}
+{PEREIRA, A. A.~C.; SILVA, M. de~Lourdes O. Reis~da. \emph{O Trabalho de
+  Conclusão de Curso: Constructo epistemológico no currículo formação,
+  valor e importância}. 2009. Disponível em:
+  $<$http://fedathi.multimeios.ufc.br/rides/phocadownload/artigos\_iiienforsup\_adicionais.pdf$>$.
+  Acesso em: 11 de maio de 2018.}
+
+\bibitem[Schenk 2018]{miktex2018}
+\abntrefinfo{Schenk}{SCHENK}{2018}
+{SCHENK, C. \emph{About MikTeX}. 2018. Disponível em:
+  $<$https://miktex.org/about$>$. Acesso em: 08 de maio de 2018.}
+
+\bibitem[TablesGenerator 2018]{tables2018}
+\abntrefinfo{TablesGenerator}{TABLESGENERATOR}{2018}
+{TABLESGENERATOR. \emph{Create LaTeX tables online}. 2018. Disponível em:
+  $<$http://www.tablesgenerator.com/$>$. Acesso em: 10 de maio de 2018.}
+
+\end{thebibliography}
