@@ -1,0 +1,47 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[IFTM 2011]{manualEstagio}
+\abntrefinfo{IFTM}{IFTM}{2011}
+{IFTM. Normas para elaboração de relatório de estágio.
+Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro,
+  2011.}
+
+\bibitem[IFTM 2012]{manualTCC}
+\abntrefinfo{IFTM}{IFTM}{2012}
+{IFTM. Manual para normatização de trabalhos de conclusão de curso (tcc) do
+  iftm.
+Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro,
+  2012.}
+
+\bibitem[LaTeX 2018]{LATEX2018}
+\abntrefinfo{LaTeX}{LATEX}{2018}
+{LATEX. \emph{An introduction to LaTeX}. 2018. Disponível em:
+  $<$https://www.latex-project.org/about/$>$. Acesso em: 08 de maio de 2018.}
+
+\bibitem[Oetiker et al. 2001]{oetiker2001}
+\abntrefinfo{Oetiker et al.}{OETIKER et al.}{2001}
+{OETIKER, T. et al. \emph{The not so short introduction to LATEX
+  2$\varepsilon$}.
+[S.l.], 2001.}
+
+\bibitem[Oliveira e Piccinini 2012]{Piccinini2012}
+\abntrefinfo{Oliveira e Piccinini}{OLIVEIRA; PICCININI}{2012}
+{OLIVEIRA, S.~R.; PICCININI, V.~C. Uma análise sobre a inserção profissional
+  de estudantes de administração no brasil.
+\emph{RAM. Revista de Administração Mackenzie}, Universidade Presbiteriana
+  Mackenzie, v.~13, n.~2, 2012.}
+
+\bibitem[Pereira e Silva 2009]{Pereira2009}
+\abntrefinfo{Pereira e Silva}{PEREIRA; SILVA}{2009}
+{PEREIRA, A. A.~C.; SILVA, M. de~Lourdes O. Reis~da. \emph{O TRABALHO DE
+  CONCLUSÃO DE CURSO: CONSTRUCTO EPISTEMOLÓGICO NO CURRÍCULO FORMAÇÃO,
+  VALOR E IMPORTÂNCIA}. 2009. Disponível em:
+  $<$http://fedathi.multimeios.ufc.br/rides/phocadownload/artigos\_iiienforsup\_adicionais.pdf$>$.
+  Acesso em: 11 de maio de 2018.}
+
+\end{thebibliography}

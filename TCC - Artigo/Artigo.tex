@@ -1,0 +1,38 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{times}
+\usepackage{sectsty}
+\usepackage[alf]{abntex2cite}
+
+%margens
+\geometry{a4paper,left=3cm,top=3cm,right=2cm,bottom=2cm}
+
+%espaçamento
+\setstretch{1.5}
+
+%tamanho dos títulos das seções e sub-seções
+\sectionfont{\fontsize{14}{15}\selectfont}
+\subsectionfont{\fontsize{12}{15}\selectfont}
+
+\begin{document}
+\input TituloENome
+\input Resumo
+\input TituloLinguaEstr
+\input Abstract
+\input Introducao
+\input Desenvolvimento
+\input Conclusao
+
+%Referências
+%Edite o arquivo RelatorioEstagio.bib com as suas referências
+\newpage
+\renewcommand{\bibname}{REFERÊNCIAS}
+\bibliography{Artigo}
+
+\end{document}
